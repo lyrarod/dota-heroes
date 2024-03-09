@@ -1,30 +1,50 @@
-# Dota Heroes App (NextJS 14)
-![localhost_3000_](https://github.com/lyrarod/dota-heroes-next14/assets/40926108/3a488e35-0a0d-4626-ba7c-97a43eed5fc9)
+# Dota Heroes App
+![localhost_3000_ (1)](https://github.com/lyrarod/dota-heroes/assets/40926108/ac9e1b99-c67c-4a73-8ca2-5ad2a7d31336)
 
-## Rodando localmente
 
-Clone o projeto
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
+
+
+## Stack
+
+ Next.js 14, TailwindCSS, Shadcn/ui
+
+
+## Features
+
+- Dark and light mode
+- URL search params
+- generateMetadata
+- generateStaticParams
+- Data Fetching, Caching, and Revalidating
+
+
+## Running locally
+
+Clone the project
 
 ```bash
-  git clone https://github.com/lyrarod/dota-heroes-next14.git
+  git clone https://github.com/lyrarod/dota-heroes.git
 ```
 
-Entre no diretório do projeto
+Enter the project directory
 
 ```bash
-  cd dota-heroes-next14
+  cd dota-heroes
 ```
 
-Instale as dependências
+Install dependencies
 
 ```bash
   npm install
 ```
 
-Inicie o servidor
+Start the server
 
 ```bash
   npm run dev
 ```
 
-Abrir [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
