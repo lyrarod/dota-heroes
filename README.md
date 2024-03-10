@@ -1,5 +1,5 @@
 # Dota Heroes App
-![localhost_3000_ (1)](https://github.com/lyrarod/dota-heroes/assets/40926108/ac9e1b99-c67c-4a73-8ca2-5ad2a7d31336)
+![dota-heroes-lyrarod vercel app_](https://github.com/lyrarod/dota-heroes/assets/40926108/268e1eae-89b7-4682-ba12-9416ced230d5)
 
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
