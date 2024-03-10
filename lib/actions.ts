@@ -7,6 +7,7 @@ export type HeroesProps = {
   slug: string;
   attack_type: string;
   roles: string[];
+  primary_attr: string;
 };
 
 export async function fetchHeroes() {
@@ -40,7 +41,8 @@ export async function fetchHeroes() {
       icon,
       slug,
       attack_type: hero.attack_type,
-      roles: hero.roles.join(" I "),
+      roles: hero.roles,
+      primary_attr: hero.primary_attr,
     };
   });
 
