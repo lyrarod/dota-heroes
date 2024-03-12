@@ -57,7 +57,7 @@ export default async function Page({ params }: Props) {
             />
           </div>
 
-          <div className="flex items-center justify-between border-b">
+          <div className="flex items-center justify-between pb-2 border-b">
             <CardTitle>{hero.name}</CardTitle>
             <Avatar>
               <AvatarImage src={hero.icon} width={32} height={32} />
@@ -67,7 +67,7 @@ export default async function Page({ params }: Props) {
             </Avatar>
           </div>
         </CardHeader>
-        <CardContent className="flex flex-col text-xs uppercase gap-y-2">
+        <CardContent className="flex flex-col text-xs uppercase gap-y-3">
           <div className="flex gap-x-2">
             <strong className="flex items-center h-fit">
               <span className="flex w-1 h-1 mr-2 rounded-full bg-primary" />
@@ -97,47 +97,19 @@ export default async function Page({ params }: Props) {
           </div>
         </CardContent>
         <CardFooter>
-          <Button asChild variant={"default"} size={"sm"} className="w-full">
+          <Button
+            asChild
+            variant={"link"}
+            size={"sm"}
+            className="flex p-0 w-fit gap-x-1"
+          >
             <Link href={"/"}>
-              <ArrowLeftIcon className="w-4 h-4 mr-1" />
+              <ArrowLeftIcon />
               Back
             </Link>
           </Button>
         </CardFooter>
       </Card>
-
-      {/* <div className="flex justify-center w-full py-4 rounded shadow-md max-w-72 bg-secondary">
-        <div className="flex flex-col gap-y-4 w-full max-w-[256px]">
-          <img
-            src={hero?.img}
-            alt={hero?.name}
-            title={hero?.name}
-            width={256}
-            height={144}
-          />
-
-          <span className="flex items-center justify-between border-b border-foreground">
-            <h1 className="text-xl font-bold">{hero?.name}</h1>
-            <img src={hero?.icon} alt={hero?.name} width={32} height={32} />
-          </span>
-
-          <span className="border-b border-foreground">
-            <strong>Attack Type:</strong>{" "}
-            <span className="text-sm">{hero?.attack_type}</span>
-          </span>
-
-          <span className="border-b border-foreground">
-            <strong>Roles:</strong>{" "}
-            <span className="text-sm">{hero?.roles}</span>
-          </span>
-
-          <Button asChild variant={"default"} size={"sm"}>
-            <Link href={"/"}>
-              <ArrowLeftIcon /> Back
-            </Link>
-          </Button>
-        </div>
-      </div> */}
     </main>
   );
 }
